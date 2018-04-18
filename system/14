@@ -3,4 +3,6 @@
 tail -f /var/log/syslog &
 
 # tail prints the last 10 lines of each file to standard output.
-# You can put a task (such as command or script) in a background by appending a & at the end of the command line. (https://www.cyberciti.biz/faq/linux-command-line-run-in-background/)
+# You can put a task (such as command or script) in a background by
+# appending a & at the end of the command line.
+# (https://www.cyberciti.biz/faq/linux-command-line-run-in-background/)

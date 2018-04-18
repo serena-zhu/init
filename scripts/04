@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Write a script which monitors the modifications made to the /etc/crontab file and sends an e-mail to root if the file is modified. Create a scheduled task to run this script everyday at midnight.
+# Write a script which monitors the modifications made to the /etc/crontab file
+# and sends an e-mail to root if the file is modified. 
+# Create a scheduled task to run this script everyday at midnight.
 
 echo "#!/bin/bash" > ~/crontab_email.sh
 chmod +x ~/crontab_email.sh
@@ -23,4 +25,7 @@ echo "0 0 * * * root ~/crontab_email.sh" | crontab
 # apt-get install postfix
 # dpkg-reconfigure postfix
 # (https://unix.stackexchange.com/questions/185365/mail-cannot-send-message-process-exited-with-a-non-zero-status?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
-# md5sum is a computer program that calculates and verifies 128-bit MD5 hashes, as described in RFC 1321. The MD5 hash functions as a compact digital fingerprint of a file. It is very unlikely that any two non-identical files in the real world will have the same MD5 hash, unless they have been specifically created to have the same hash.
+# md5sum is a computer program that calculates and verifies 128-bit MD5 hashes, as described in RFC 1321. 
+# The MD5 hash functions as a compact digital fingerprint of a file. 
+# It is very unlikely that any two non-identical files in the real world will have the same MD5 hash, 
+# unless they have been specifically created to have the same hash.
