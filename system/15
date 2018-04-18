@@ -1,0 +1,5 @@
+# Find the command that kills the background command’s process
+
+jobs | kill $(jobs -p)
+
+# (https://unix.stackexchange.com/questions/43527/kill-all-background-jobs)

@@ -1,0 +1,7 @@
+# What command gives you the time since your system was last booted?
+
+last reboot | head -1
+
+# $ who -b
+
+# https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html

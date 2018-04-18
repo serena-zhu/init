@@ -1,0 +1,6 @@
+# What file contains the RSA keys that are authorized to connect via SSH?
+
+~/.ssh/id_rsa for private RSA key
+~/.ssh/id_rsa.pub for public RSA key
+
+# (https://www.cyberciti.biz/faq/linux-generating-rsa-keys/)

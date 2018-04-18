@@ -1,0 +1,5 @@
+# Find the command which gives the list of firewall rules
+
+iptables -L
+
+# (https://www.cyberciti.biz/faq/howto-display-linux-iptables-loaded-rules/)

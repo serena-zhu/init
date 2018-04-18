@@ -1,0 +1,5 @@
+# Figure out the exact size of each folder of /var
+
+du -sh /var/* && du -sh /var
+
+# (https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/)

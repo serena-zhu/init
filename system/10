@@ -1,0 +1,5 @@
+# Name the command that lists the partition tables of external devices?
+
+fdisk -l 
+
+# (https://www.cyberciti.biz/faq/linux-viewing-drive-partitions-with-fdisk-parted/) A disk partition or partition is a section of the hard drive that is separated from other segments. Partitions help enable users to divide a computer hard drive into different drives or different portions for a number of reasons. For example, allowing multiple operating systems to run on the same device.

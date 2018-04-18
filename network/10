@@ -1,0 +1,5 @@
+# Identify the network devices between your computer and the slash16.org domain
+
+traceroute slash16.org
+
+# traceroute prints the route that packets take to a network host. traceroute attempts to trace the route an IP packet would follow to some Internet host by launching probe packets with a small ttl (time to live) then listening for an ICMP "time exceeded" reply from a gateway. (https://www.computerhope.com/unix/utracero.htm)

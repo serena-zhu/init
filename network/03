@@ -1,0 +1,5 @@
+# Identify the MAC address of the Wi-Fi card
+
+ifconfig en1 | grep 'ether' | awk '{print $2}'
+
+# A media access control address (MAC address) of a device is a unique identifier assigned to network interface controllers (computer hardware components that connects a computer to a computer network) for communications at the data link layer of a network segment. 

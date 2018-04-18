@@ -1,0 +1,5 @@
+# Identify the IP address of the Ethernet interface
+
+ifconfig en0 | grep 'inet ' | awk '{print $2}'
+
+#ifconfig en0

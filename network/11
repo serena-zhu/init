@@ -1,0 +1,9 @@
+# Use the output of the previous command to find the name and IP address of the
+device that makes the link between you (local network) and the outside world
+
+# nslookup nat
+
+Name:	nat.42.us.org
+Address: 10.90.1.11
+
+# Network Address Translation allows a single device, such as a router, to act as an agent between the Internet (or "public network") and a local (or "private") network. Network Address Translation is used by a device (firewall, router or computer that sits between an internal network and the rest of the world. (https://computer.howstuffworks.com/nat.htm)

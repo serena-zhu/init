@@ -1,0 +1,5 @@
+# Identify the IP address of the DNS that responds to the following url: slash16.org
+
+nslookup slash16.org
+
+# #53 indicates that we're communicating with the server on port 53.

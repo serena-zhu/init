@@ -1,0 +1,5 @@
+# Identifiy the default gateway in the routing table
+
+netstat -rn | grep -m 1 '^default' | sed 's/ * / /g'
+
+# A gateway is the entrance point to another network. A default gateway is the address to which packets are sent if there is no specific gateway for a given destination listed in the routing table.

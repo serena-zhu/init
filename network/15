@@ -1,0 +1,5 @@
+# What file contains the local DNS entries?
+
+/etc/hosts
+
+# The computer file hosts is an operating system file that maps hostnames to IP addresses. (https://en.wikipedia.org/wiki/Hosts_(file))
