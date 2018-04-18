@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Write a script which updates all the package sources, then all the packages, and then logs everything in a file named /var/log/update_script.log. Create a scheduled task for this script, once per week at 4 AM
+
+echo "#!/bin/bash" > ~/update.sh
+chmod +x ~/update.sh
+echo "apt-get -y update > /var/log/update_script.log && apt-get -y upgrade >> /var/log/update_script.log" >> ~/update.sh
+
+echo "0 4 * * 1 root ~/update.sh" | crontab 
+
+# (https://www.cyberciti.biz/faq/linux-update-all-packages-command/)
+# for "no crontab for user" error from $ crontab -l, use crontab -e to create a crontab for user
+# https://crontab.guru/

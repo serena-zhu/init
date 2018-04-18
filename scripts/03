@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Write a script which displays the list of files from the folder given as parameter, sorted by size.
+
+if [ $# -ge 1 ]; then
+	folder="$1"
+	if [ ! -d "$folder" ]; then
+		echo "Folder does not exist, exiting."
+		exit 1
+	fi
+	du -a $folder | sort -r
+fi
