@@ -4,4 +4,8 @@ DHCP
 
 # nslookup 10.51.1.253
 
-# DHCP (Dynamic Host Configuration Protocol) is a protocol used to provide quick, automatic, and central management for the distribution of IP addresses within a network. A DHCP server is used to issue unique IP addresses and automatically configure other network information. In most homes and small businesses, the router acts as the DHCP server. In large networks, a single computer might act as the DHCP server. (https://www.lifewire.com/what-is-dhcp-2625848)
+# DHCP (Dynamic Host Configuration Protocol) is a protocol used to provide quick, 
+# automatic, and central management for the distribution of IP addresses within a network. 
+# A DHCP server is used to issue unique IP addresses and automatically configure other 
+# network information. In most homes and small businesses, the router acts as the DHCP server. 
+# In large networks, a single computer might act as the DHCP server. (https://www.lifewire.com/what-is-dhcp-2625848)
