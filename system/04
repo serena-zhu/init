@@ -1,6 +1,8 @@
 # What command gives you the time since your system was last booted?
 
-last reboot | head -1
+uptime
+
+# last reboot | head -1
 
 # $ who -b
 
