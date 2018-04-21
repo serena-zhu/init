@@ -8,5 +8,5 @@ if [ $# -ge 1 ]; then
 		echo "Folder does not exist, exiting."
 		exit 1
 	fi
-	du -a $folder | sort -r
+	du -a $folder | sort -rh
 fi
